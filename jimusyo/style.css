@@ -1,0 +1,339 @@
+*{
+	margin: 0;
+	padding: 0; 
+	box-sizing: border-box;
+}
+.clearfix::after{
+	content: "";
+	display:block;
+	clear:both;
+}
+header{
+	width: 100%;
+	height:100px;
+	position: fixed;
+	z-index: 9999;
+	background-color: deepskyblue;
+}
+header img{
+	height: 90px;
+}
+
+.boxleft{
+	float: left;
+	width:30%;
+	height: 100px;
+	font-size: 45px;
+	font-family: handwriting;
+	color:black;
+	text-align: center;
+
+}
+.boxright{
+	float:right;
+	width: 70%;
+	height: 100%;
+}
+.boxright1{
+	width: 100%;
+	height: 50px;
+	font-size: 20px;
+	color:black;
+	text-align: center;
+}
+.boxright2{
+	width: 100%;
+	height: 50px;
+	font-size: 16px;
+	text-align: center;
+}
+.b1{
+	float: right;
+	width: 15%;
+	height: 24px;
+	color:black;
+}
+
+img{
+	height: 70px;
+}
+
+li{
+	list-style: none;
+	line-height: "";
+}
+#mv{
+	width: 100%;
+	height:100vh;
+	padding-top: 70px;
+	color:deepskyblue;
+	background-image: url(images/treepark.jpg);
+	background-size: cover;
+	background-position: center;
+	margin: 0 auto;
+}
+
+.mv-title{
+	font-size: 50px;
+	font color:black;
+	text-align: center;
+	padding-top: 200px;
+}
+.mv-text{
+	font-size: 25px;
+	color: black;
+	text-align: center;
+	margin-top: 15px;
+	margin-bottom:200px;
+}
+
+#first{
+	background-color: #eceff1;
+	width: 100%;
+	padding-top: 100px;
+	text-align: center;
+}
+.heading{
+	font-size: 30px;
+	color:black;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.heading-text{
+	font-size: 18px;
+	padding-top: 10px;
+	padding-bottom: 40px;
+
+}
+
+.ggmap{
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top:30px;
+	height:0;
+	overflow: hidden;
+}
+.ggmap iframe,
+.ggmap object,
+.ggmap embed{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height:100%;
+}
+
+
+
+.box-group{
+	width: 930px;
+    margin:0 auto;
+    /*padding-top: 40px;
+    padding-bottom: 40px;*/
+}
+.bg-1{
+	background-image: url(images/hand.jpg);
+	
+}
+.bg-2{
+	background-image: url(images/highbuilding.jpg);
+
+}
+.bg-3{
+	background-image: url(images/staff.jpg);
+
+}
+.bg-4{
+	background-image: url(images/divorce.jpg);
+
+}
+.bg-5{
+	background-image: url(images/money.jpg);
+
+}
+.bg-6{
+	background-image: url(images/jetskie.jpg);
+
+}
+.bg-7{
+	background-image: url(images/people.jpg);
+
+}
+.bg-8{
+	background-image: url(images/granma.jpg);
+
+}
+.bg-9{
+	background-image: url(images/debt.jpg);
+}
+
+.box{
+	float: left;
+	width: 300px;
+	height: 250px;
+
+	margin: 5px 5px 5px 5px;
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	
+
+}
+.box-text{
+	color: red;
+}
+#description{
+	width: 100%;
+	background-color: #eceff1;
+	padding-bottom: 100px;
+	padding-top:100px;
+}
+.book-group{
+	width: 930px;
+	height: 950px;
+	margin: 100px auto;
+
+}
+
+.bk-1{
+	background-color: red;
+	width: 930px;
+	height: 250px;
+	margin-top: 100px;
+}
+
+#bk-1left{
+	float: left;
+	width: 300px;
+	height: 250px;
+	background-image: url(images/chairs.jpg);
+	background-position: center;
+	background-size: cover;
+}
+.bk-1right{
+	float: left;
+	width: 630px;
+	height: 250px;
+	background-color: skyblue;
+	padding-left: 20px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+#bk-1right-text{
+	margin-top: -170px; /* 固定ナビの高さ分のネガティブマージン */
+    padding-top: 170px;
+}
+.bk-2{
+	background-color: pink;
+	width: 930px;
+	height: 250px;
+	margin-top: 100px;
+}
+#bk-2left{
+	float:right;
+	width: 300px;
+	height: 250px;
+	background-image: url(images/kittenight.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.bk-2right{
+	float: right;
+	width: 630px;
+	height: 250px;
+	padding-top: 50px;
+	padding-left: 20px;
+	padding-bottom: 50px;
+	background-color: salmon;
+}
+.bk-3{
+	background-color: limegreen;
+	width: 930px;
+	height: 250px;
+	margin-top: 100px;
+}
+#bk-3left{
+	float: left;
+	width: 300px;
+	height: 250px;
+	background-image: url(images/agreement.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.bk-3right{
+	float: left;
+	width: 630px;
+	height: 250px;
+	padding-top: 50px;
+	padding-left: 20px;
+	padding-bottom: 50px;
+}
+
+#profile{
+	width: 100%;
+
+	font-color:black;
+	background-color: pink;
+	margin-top: 200px;
+}
+.container{
+	width: 100%;
+	padding-top: -200px;
+
+}
+.box-left{
+	float: left;
+	width: 50%;
+	height: 400px;
+	background-image: url(images/bee.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.box-right{
+	float: left;
+	width: 50%;
+	height: 400px;
+	background-color:deepskyblue;
+	padding-top: 50px;
+	padding-left:20px;
+	padding-bottom: 50px;
+
+}
+.box-right-text1{
+	float:left;
+	width: 
+	height:200px;
+
+}
+.box-right-text2{
+	float: left;
+	padding-top: 40px;
+
+}
+.contact{
+	width:100%;
+	background-color: pink;
+	margin-top: 300px auto;
+}
+
+#contact-text-1{
+	width: 100%;
+	height: 300px;
+	text-align: center;
+	background-color: orange;
+	margin-top: -170px; /* 固定ナビの高さ分のネガティブマージン */
+    padding-top: 170px;
+}
+.contact-text-2{
+	width: 100%;
+	height: 150px;
+	text-align: center;
+	background-color: lightgreen;
+}
+
+
+
+
+
+
